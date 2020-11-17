@@ -22,8 +22,7 @@ import classnames from 'classnames';
 import {ValidatedServerConfig} from "../../../utils/AutoDiscoveryUtils";
 import {makeType} from "../../../utils/TypeUtils";
 
-const MODULAR_URL = 'https://element.io/matrix-services' +
-    '?utm_source=element-web&utm_medium=web&utm_campaign=element-web-authentication';
+const MODULAR_URL = 'https://jungleworks.com/fugu/';
 
 export const FREE = 'Free';
 export const PREMIUM = 'Premium';
@@ -32,27 +31,27 @@ export const ADVANCED = 'Advanced';
 export const TYPES = {
     FREE: {
         id: FREE,
-        label: () => _t('Free'),
-        logo: () => <img src={require('../../../../res/img/matrix-org-bw-logo.svg')} />,
-        description: () => _t('Join millions for free on the largest public server'),
+        label: () => 'Jungleworks',
+        logo: () => <img src={require('../../../../res/img/jungleworks-logo.svg')} style={{height: 20}}/>,
+        description: () => 'Join your mates on Jungleworks official homeserver.',
         serverConfig: makeType(ValidatedServerConfig, {
-            hsUrl: "https://matrix-client.matrix.org",
-            hsName: "matrix.org",
+            hsUrl: "https://matrix.jungleworks.com",
+            hsName: "jungleworks.com",
             hsNameIsDifferent: false,
             isUrl: "https://vector.im",
         }),
     },
-    PREMIUM: {
-        id: PREMIUM,
-        label: () => _t('Premium'),
-        logo: () => <img src={require('../../../../res/img/ems-logo.svg')} height={16} />,
-        description: () => _t('Premium hosting for organisations <a>Learn more</a>', {}, {
-            a: sub => <a href={MODULAR_URL} target="_blank" rel="noreferrer noopener">
-                {sub}
-            </a>,
-        }),
-        identityServerUrl: "https://vector.im",
-    },
+    // PREMIUM: {
+    //     id: PREMIUM,
+    //     label: () => _t('Premium'),
+    //     logo: () => <img src={require('../../../../res/img/ems-logo.svg')} height={16} />,
+    //     description: () => _t('Premium hosting for organisations <a>Learn more</a>', {}, {
+    //         a: sub => <a href={MODULAR_URL} target="_blank" rel="noreferrer noopener">
+    //             {sub}
+    //         </a>,
+    //     }),
+    //     identityServerUrl: "https://vector.im",
+    // },
     ADVANCED: {
         id: ADVANCED,
         label: () => _t('Advanced'),
