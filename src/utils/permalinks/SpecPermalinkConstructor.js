@@ -16,7 +16,7 @@ limitations under the License.
 
 import PermalinkConstructor, {PermalinkParts} from "./PermalinkConstructor";
 
-export const host = "matrix.to";
+export const host = "invite.fugu.chat";
 export const baseUrl = `https://${host}`;
 
 /**

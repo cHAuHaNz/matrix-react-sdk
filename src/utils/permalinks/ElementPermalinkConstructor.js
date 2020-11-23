@@ -27,7 +27,7 @@ export default class ElementPermalinkConstructor extends PermalinkConstructor {
         this._elementUrl = elementUrl;
 
         if (!this._elementUrl.startsWith("http:") && !this._elementUrl.startsWith("https:")) {
-            throw new Error("Element prefix URL does not appear to be an HTTP(S) URL");
+            throw new Error("FuguChat prefix URL does not appear to be an HTTP(S) URL");
         }
     }
 
