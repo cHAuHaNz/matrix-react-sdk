@@ -2215,7 +2215,7 @@
     "Delete sessions|other": "Kustuta sessioonid",
     "Delete sessions|one": "Kustuta sessioon",
     "Authentication": "Autentimine",
-    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. Use <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s ei võimalda veebibrauseris töötades krüptitud sõnumeid turvaliselt puhverdada. Selleks, et krüptitud sõnumeid saaks otsida, kasuta <desktopLink>%(brand)s Desktop</desktopLink> rakendust Matrix'i kliendina.",
+    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s ei võimalda veebibrauseris töötades krüptitud sõnumeid turvaliselt puhverdada. Selleks, et krüptitud sõnumeid saaks otsida, kasuta <desktopLink>%(brand)s Desktop</desktopLink> rakendust Matrix'i kliendina.",
     "Encrypted messages are secured with end-to-end encryption. Only you and the recipient(s) have the keys to read these messages.": "Krüptitud sõnumid kasutavad läbivat krüptimist. Ainult sinul ja saaja(te)l on võtmed selliste sõnumite lugemiseks.",
     "Unable to load key backup status": "Võtmete varunduse oleku laadimine ei õnnestunud",
     "Restore from Backup": "Taasta varundusest",

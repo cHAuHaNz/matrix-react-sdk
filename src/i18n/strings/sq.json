@@ -2357,7 +2357,7 @@
     "Incoming voice call": "Thirrje zanore ardhëse",
     "Incoming video call": "Thirrje video ardhëse",
     "Incoming call": "Thirrje ardhëse",
-    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. Use <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s s’mund të ruajë lokalisht në fshehtinë në mënyrë të siguruar mesazhe të fshehtëzuar, teksa xhirohet në një shfletues. Që mesazhet e fshehtëzuar të shfaqen te përfundime kërkimi, përdorni <desktopLink>%(brand)s Desktop</desktopLink>.",
+    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s s’mund të ruajë lokalisht në fshehtinë në mënyrë të siguruar mesazhe të fshehtëzuar, teksa xhirohet në një shfletues. Që mesazhet e fshehtëzuar të shfaqen te përfundime kërkimi, përdorni <desktopLink>%(brand)s Desktop</desktopLink>.",
     "There are advanced notifications which are not shown here.": "Ka njoftime të thelluara që s’janë shfaqur këtu.",
     "You might have configured them in a client other than %(brand)s. You cannot tune them in %(brand)s but they still apply.": "Mund t’i keni formësuar në një klient tjetër nga %(brand)s. S’mund t’i përimtoni në %(brand)s, por janë ende të vlefshëm.",
     "Set the name of a font installed on your system & %(brand)s will attempt to use it.": "Caktoni emrin e një palë shkronjash të instaluara në sistemin tuaj & %(brand)s do të provojë t’i përdorë.",

@@ -116,35 +116,36 @@ export default class HelpUserSettingsTab extends React.Component {
         // Note: This is not translated because it is legal text.
         // Also, &nbsp; is ugly but necessary.
         return (
-            <div className='mx_SettingsTab_section'>
-                <span className='mx_SettingsTab_subheading'>{_t("Credits")}</span>
-                <ul>
-                    <li>
-                        The <a href="themes/element/img/backgrounds/lake.jpg" rel="noreferrer noopener" target="_blank">
-                        default cover photo</a> is ©&nbsp;
-                        <a href="https://www.flickr.com/golan" rel="noreferrer noopener" target="_blank">Jesús Roncero</a>{' '}
-                        used under the terms of&nbsp;
-                        <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noreferrer noopener" target="_blank">
-                        CC-BY-SA 4.0</a>.
-                    </li>
-                    <li>
-                        The <a href="https://github.com/matrix-org/twemoji-colr" rel="noreferrer noopener"
-                               target="_blank"> twemoji-colr</a> font is ©&nbsp;
-                        <a href="https://mozilla.org" rel="noreferrer noopener" target="_blank">Mozilla Foundation</a>{' '}
-                        used under the terms of&nbsp;
-                        <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="noreferrer noopener" target="_blank">
-                        Apache 2.0</a>.
-                    </li>
-                    <li>
-                        The <a href="https://twemoji.twitter.com/" rel="noreferrer noopener" target="_blank">
-                        Twemoji</a> emoji art is ©&nbsp;
-                        <a href="https://twemoji.twitter.com/" rel="noreferrer noopener" target="_blank">Twitter, Inc and other
-                        contributors</a> used under the terms of&nbsp;
-                        <a href="https://creativecommons.org/licenses/by/4.0/" rel="noreferrer noopener" target="_blank">
-                        CC-BY 4.0</a>.
-                    </li>
-                </ul>
-            </div>
+            <></>
+            // <div className='mx_SettingsTab_section'>
+            //     <span className='mx_SettingsTab_subheading'>{_t("Credits")}</span>
+            //     <ul>
+            //         <li>
+            //             The <a href="themes/element/img/backgrounds/lake.jpg" rel="noreferrer noopener" target="_blank">
+            //             default cover photo</a> is ©&nbsp;
+            //             <a href="https://www.flickr.com/golan" rel="noreferrer noopener" target="_blank">Jesús Roncero</a>{' '}
+            //             used under the terms of&nbsp;
+            //             <a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="noreferrer noopener" target="_blank">
+            //             CC-BY-SA 4.0</a>.
+            //         </li>
+            //         <li>
+            //             The <a href="https://github.com/matrix-org/twemoji-colr" rel="noreferrer noopener"
+            //                    target="_blank"> twemoji-colr</a> font is ©&nbsp;
+            //             <a href="https://mozilla.org" rel="noreferrer noopener" target="_blank">Mozilla Foundation</a>{' '}
+            //             used under the terms of&nbsp;
+            //             <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="noreferrer noopener" target="_blank">
+            //             Apache 2.0</a>.
+            //         </li>
+            //         <li>
+            //             The <a href="https://twemoji.twitter.com/" rel="noreferrer noopener" target="_blank">
+            //             Twemoji</a> emoji art is ©&nbsp;
+            //             <a href="https://twemoji.twitter.com/" rel="noreferrer noopener" target="_blank">Twitter, Inc and other
+            //             contributors</a> used under the terms of&nbsp;
+            //             <a href="https://creativecommons.org/licenses/by/4.0/" rel="noreferrer noopener" target="_blank">
+            //             CC-BY 4.0</a>.
+            //         </li>
+            //     </ul>
+            // </div>
         );
     }
 
@@ -158,7 +159,7 @@ export default class HelpUserSettingsTab extends React.Component {
             },
             {
                 'a': (sub) => <a
-                    href="https://element.io/help"
+                    href="https://fugu.chat/help"
                     rel="noreferrer noopener"
                     target="_blank"
                 >
@@ -177,7 +178,7 @@ export default class HelpUserSettingsTab extends React.Component {
                         },
                         {
                             'a': (sub) => <a
-                                href="https://element.io/help"
+                                href="https://fugu.chat/help"
                                 rel='noreferrer noopener'
                                 target='_blank'
                             >

@@ -1672,7 +1672,7 @@
     "%(num)s minutes ago": "pred %(num)s minútami",
     "%(num)s hours ago": "pred %(num)s hodinami",
     "%(num)s days ago": "pred %(num)s dňami",
-    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. Use <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s nemôže bezpečne cachovať šiforvané správy lokálne pomocou prehlliadača. Použite <desktopLink>%(brand)s Desktop</desktopLink> na zobrazenie výsledkov vyhľadávania šiforavných správ.",
+    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s nemôže bezpečne cachovať šiforvané správy lokálne pomocou prehlliadača. Použite <desktopLink>%(brand)s Desktop</desktopLink> na zobrazenie výsledkov vyhľadávania šiforavných správ.",
     "There are advanced notifications which are not shown here.": "Sú tam pokročilé notifikácie, ktoré tu nie sú zobrazené.",
     "You might have configured them in a client other than %(brand)s. You cannot tune them in %(brand)s but they still apply.": "Možno ste ich nakonfigurovali v inom kliente než v %(brand)se. Nemôžete ich napasovať do %(brand)su, ale stále platia.",
     "New version available. <a>Update now.</a>": "Je dostupná nová verzia. <a>Aktualizovať.</a>",

@@ -2358,7 +2358,7 @@
     "Incoming voice call": "語音來電",
     "Incoming video call": "視訊來電",
     "Incoming call": "來電",
-    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. Use <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s 無法在網路瀏覽器中執行時安全地在本機快取加密訊息。使用 <desktopLink>%(brand)s 桌面版</desktopLink>以讓加密訊息出現在搜尋結果中。",
+    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s 無法在網路瀏覽器中執行時安全地在本機快取加密訊息。使用 <desktopLink>%(brand)s 桌面版</desktopLink>以讓加密訊息出現在搜尋結果中。",
     "There are advanced notifications which are not shown here.": "有些進階通知未在此處顯示。",
     "You might have configured them in a client other than %(brand)s. You cannot tune them in %(brand)s but they still apply.": "您可能已在 %(brand)s 以外的客戶端設定它們了。您無法以 %(brand)s 調整，但仍然適用。",
     "Set the name of a font installed on your system & %(brand)s will attempt to use it.": "設定您系統上安裝的字型名稱，%(brand)s 將會嘗試使用它。",

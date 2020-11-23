@@ -1944,7 +1944,7 @@
     "Leave Room": "Išeiti Iš Kambario",
     "Favourited": "Mėgstamas",
     "Room options": "Kambario parinktys",
-    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. Use <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s negali saugiai talpinti šifruotų žinučių lokaliai, kai veikia interneto naršyklėje. Naudokite <desktopLink>%(brand)s Desktop (darbastalio versija)</desktopLink>, kad šifruotos žinutės būtų rodomos paieškos rezultatuose.",
+    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s negali saugiai talpinti šifruotų žinučių lokaliai, kai veikia interneto naršyklėje. Naudokite <desktopLink>%(brand)s Desktop (darbastalio versija)</desktopLink>, kad šifruotos žinutės būtų rodomos paieškos rezultatuose.",
     "%(brand)s is missing some components required for securely caching encrypted messages locally. If you'd like to experiment with this feature, build a custom %(brand)s Desktop with <nativeLink>search components added</nativeLink>.": "%(brand)s trūksta kai kurių komponentų, reikalingų saugiai talpinti šifruotas žinutes lokaliai. Jei norite eksperimentuoti su šia funkcija, sukurkite pasirinktinį %(brand)s Desktop (darbastalio versiją), su <nativeLink>pridėtais paieškos komponentais</nativeLink>.",
     "Manage": "Tvarkyti",
     "rooms.": "kambarių.",

@@ -2354,7 +2354,7 @@
     "Incoming voice call": "Chamada de voz entrante",
     "Incoming video call": "Chamada de vídeo entrante",
     "Incoming call": "Chamada entrante",
-    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. Use <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s non pode por na caché local de xeito as mensaxes cifradas cando usa un navegador web. Usa <desktopLink>%(brand)s Desktop</desktopLink> para que as mensaxes cifradas aparezan nos resultados.",
+    "%(brand)s can't securely cache encrypted messages locally while running in a web browser. <desktopLink>%(brand)s Desktop</desktopLink> for encrypted messages to appear in search results.": "%(brand)s non pode por na caché local de xeito as mensaxes cifradas cando usa un navegador web. Usa <desktopLink>%(brand)s Desktop</desktopLink> para que as mensaxes cifradas aparezan nos resultados.",
     "There are advanced notifications which are not shown here.": "Existen notificacións avanzadas que non aparecen aquí.",
     "You might have configured them in a client other than %(brand)s. You cannot tune them in %(brand)s but they still apply.": "Deberialas ter configurado nun cliente diferente de %(brand)s. Non podes modificalas en %(brand)s pero aplícanse igualmente.",
     "Set the name of a font installed on your system & %(brand)s will attempt to use it.": "Escolle unha das tipografías instaladas no teu sistema e %(brand)s intentará utilizalas.",

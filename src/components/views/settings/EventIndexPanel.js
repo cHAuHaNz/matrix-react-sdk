@@ -190,14 +190,14 @@ export default class EventIndexPanel extends React.Component {
                 <div className='mx_SettingsTab_subsectionText'>
                     {
                         _t( "%(brand)s can't securely cache encrypted messages locally " +
-                            "while running in a web browser. Use <desktopLink>%(brand)s Desktop</desktopLink> " +
-                            "for encrypted messages to appear in search results.",
+                            "while running in a web browser. <desktopLink>%(brand)s Desktop</desktopLink> " +
+                            "will be available soon for encrypted messages to appear in search results.",
                             {
                                 brand,
                             },
                             {
-                                'desktopLink': (sub) => <a href="https://element.io/get-started"
-                                    target="_blank" rel="noreferrer noopener">{sub}</a>,
+                                'desktopLink': (sub) => <a href="#" //FuguChat Desktop App Link
+                                     rel="noreferrer noopener">{sub}</a>, // remove target="_blank" until desktop app is available
                             },
                         )
                     }

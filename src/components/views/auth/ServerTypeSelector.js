@@ -35,7 +35,7 @@ export const TYPES = {
         logo: () => <img src={require('../../../../res/img/jungleworks-logo.svg')} style={{height: 20}}/>,
         description: () => 'Join your mates on Jungleworks official homeserver.',
         serverConfig: makeType(ValidatedServerConfig, {
-            hsUrl: "https://matrix.jungleworks.com",
+            hsUrl: "https://jungleworks.com",
             hsName: "jungleworks.com",
             hsNameIsDifferent: false,
             isUrl: "https://vector.im",
